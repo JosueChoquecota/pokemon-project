@@ -1,12 +1,15 @@
+'use client'
 
-import ProductsPage from "./products/page";
-import Navbar from "./Navbar/page";
+import HomeMain from "./Home/page";
+import Login from "./login/page";
 export default function Home() {
+
   return (
     
         <>
-            <Navbar></Navbar>
-            <ProductsPage></ProductsPage>
+        <HomeMain></HomeMain>
+        <Login></Login>
+
         </>
   );
 }
